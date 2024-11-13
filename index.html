@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Introduction to languages used in web development</title>
+	<link rel="stylesheet" href="styles.css">
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+	</style>
+</head>
+<body>
+	<nav id="navbar">
+		<div>
+			<header>Languages</header>
+			<a class="nav-link" href="#html">HTML</a>
+			<a class="nav-link" href="#css">CSS</a>
+			<a class="nav-link" href="#javascript">JavaScript</a>
+			<a class="nav-link" href="#sql">SQL</a>
+			<a class="nav-link" href="#python">Python</a>
+			<a class="nav-link" href="#java">Java</a>
+		</div>
+	</nav>
+	<main id="main-doc">
+		<h1>Introductions to web-developing languages.</h1>
+		<section class="main-section" id="html">
+			<header>HTML</header>
+			<p class="caption">A standard markup language for creating Web pages.</p>
+			<body>
+				<h3>What is HTML?</h3>
+				<ul>
+					<li>HTML stands for Hyper Text Markup Language.</li>
+					<li>HTML is the standard markup language for creating Web pages.</li>
+					<li>HTML describes the structure of a Web page.</li>
+					<li>HTML consists of a series of elements.</li>
+					<li>HTML elements tell the browser how to display the content.</li>
+					<li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+				</ul>
+				<h3>A Simple HTML Document:</h3>
+				<div class="code">
+					<code>
+						&lt;!DOCTYPE html><br>
+						&lt;html><br>
+						&nbsp;&nbsp;&lt;head><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&lt;title>Page Title&lt;/title><br>
+						&nbsp;&nbsp;&lt;/head><br>
+						&nbsp;&nbsp;&lt;body><br>
+						<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2>My First Heading&lt;/h2><br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&lt;p>My first paragraph.&lt;/p><br>
+						<br>
+						&nbsp;&nbsp;&lt;/body><br>
+						&lt;/html><br>
+					</code>
+				</div>
+			</body>
+		</section>
+		<section class="main-section" id="css">
+			<header>CSS</header>
+			<p class="caption">A language we use to style a Web page.</p>
+			<body>
+				<h3>What is CSS?</h3>
+				<ul>
+					<li>CSS stands for Cascading Style Sheets</li>
+					<li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+					<li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+					<li>External stylesheets are stored in CSS files</li>
+				</ul>
+				<h3>Why Use CSS?</h3>
+				<p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</p>
+				<h3>A simple CSS code:</h3>
+				<div class="code">
+					<code>
+						body {<br>
+						&nbsp;&nbsp;background-color: lightblue;<br>
+						}<br>
+						<br>
+						h2 {<br>
+						&nbsp;&nbsp;color: white;<br>
+						&nbsp;&nbsp;text-align: center;<br>
+						}<br>
+						<br>
+						p {<br>
+						&nbsp;&nbsp;font-family: verdana;<br>
+						&nbsp;&nbsp;font-size: 20px;<br>
+						}<br>
+					</code>
+				</div>
+			</body>
+		</section>
+		<section class="main-section" id="javascript">
+			<header>JavaScript</header>
+			<p class="caption">A language the can change content within the webpage.</p>
+			<body>
+				<h3>What is JavaScript?</h3>
+				<p>JavaScript is a powerful and versatile programming language essential to modern web development.</p>
+				<p>Initially designed to add interactivity to web pages, JavaScript has grown far beyond its original scope, becoming the backbone of dynamic web content and essential for creating responsive, interactive user experiences.</p>
+				<h3>A simple JavaScript code:</h3>
+				<div class="code">
+					<code>
+						function toCelsius(fahrenheit) {<br>
+						&nbsp;  return (5/9) * (fahrenheit-32);<br>
+						}<br>
+						<br>
+						let value = toCelsius(77);<br>
+					</code>
+				</div>
+			</body>
+		</section>
+		<section class="main-section" id="sql">
+			<header>SQL</header>
+			<p class="caption">A standard language for accessing and manipulating databases.</p>
+			<body>
+				<h3>What is SQL?</h3>
+				<ul>
+					<li>SQL stands for Structured Query Language</li>
+					<li>SQL lets you access and manipulate databases</li>
+					<li>SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standardization (ISO) in 1987</li>
+				</ul>
+				<h3>What can SQL do?</h3>
+				<ul>
+					<li> SQL can execute queries against a database.</li>
+					<li>SQL can retrieve data from a database.</li>
+					<li>SQL can insert records in a database.</li>
+					<li>SQL can update records in a database.</li>
+					<li>SQL can delete records from a database.</li>
+					<li>SQL can create new databases.</li>
+					<li>SQL can create new tables in a database.</li>
+					<li>SQL can create stored procedures in a database.</li>
+					<li>SQL can create views in a database.</li>
+					<li>SQL can set permissions on tables, procedures, and views.</li>
+				</ul>
+			</body>
+		</section>
+		<section class="main-section" id="python">
+			<header>Python</header>
+			<p class="caption">A popular programming language that's used for the server-side in web development.</p>
+			<body>
+				<h3>What is Python?</h3>
+				<p>Python is a versatile, high-level programming language known for its ease of use and readability. Created by Guido van Rossum and released in 1991, Python is designed to be simple and consistent, using indentation for code blocks instead of brackets. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming.</p>
+				<h3>What can Python do?</h3>
+				<ul>
+					<li>Python can be used on a server to create web applications.</li>
+					<li>Python can be used alongside software to create workflows.</li>
+					<li>Python can connect to database systems. It can also read and modify files.</li>
+					<li>Python can be used to handle big data and perform complex mathematics.</li>
+					<li>Python can be used for rapid prototyping, or for production-ready software development.</li>
+				</ul>
+				<h3>Why Python?</h3>
+				<ul>
+					<li>Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).</li>
+					<li>Python has a simple syntax similar to the English language.</li>
+					<li>Python has syntax that allows developers to write programs with fewer lines than some other programming languages.</li>
+					<li>Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.</li>
+					<li>Python can be treated in a procedural way, an object-oriented way or a functional way.</li>
+				</ul>
+				<h3>A simple Python code:</h3>
+				<div class="code">
+					<code>
+						a = 33<br>
+						b = 33<br>
+						if b > a:<br>
+						&nbsp;&nbsp;print("b is greater than a")<br>
+						elif a == b:<br>
+						&nbsp;&nbsp;print("a and b are equal")<br>
+					</code>
+				</div>
+			</body>
+		</section>
+		<section class="main-section" id="java">
+		<header>Java</header>
+		<p class="caption">A popular programming language, created in 1995, and owned by Oracle.</p>
+		<body>
+			<h3>Why Use Java?</h3>
+			<ul>
+				<li>Java works on different platforms.</li>
+				<li>It is one of the most popular programming languages in the world.</li>
+				<li>It has a large demand in the current job market.</li>
+				<li>It is easy to learn and simple to use.</li>
+				<li>It is open-source and free.</li>
+				<li>It is secure, fast and powerful.</li>
+				<li>It has huge community support (tens of millions of developers).</li>
+				<li>Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs.</li>
+				<li>As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa.</li>
+			</ul>
+			<h3>A simple Java code:</h3>
+			<div class="code">
+				<code>
+					public class Main {<br>
+					&nbsp;&nbsp;public static void main(String[] args) {<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Hello World");<br>
+					&nbsp;&nbsp;}<br>
+					}<br>
+				</code>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
